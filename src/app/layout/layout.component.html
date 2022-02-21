@@ -1,0 +1,43 @@
+<section class="layout">
+  <div class="row">
+    <div class="col-6">
+      <div [ngClass]="setLevelClass()">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at tempor diam. Curabitur tempor, quam in
+          fringilla
+          porta, magna nisl congue enim, vel gravida lorem arcu a risus. In hac habitasse platea dictumst. Sed quis arcu
+          metus.
+          Donec dignissim ligula non ipsum rhoncus, in ullamcorper nisi suscipit. In sit amet ullamcorper nulla.
+          Curabitur
+          maximus elit vel urna tincidunt ultrices. Integer sed velit vel mauris pulvinar consequat euismod sit amet
+          est. In
+          vel
+          blandit leo, vitae feugiat odio. Pellentesque venenatis felis ut risus venenatis consequat.</p>
+      </div>
+    </div>
+    <div class="col-6">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at tempor diam. Curabitur tempor, quam in
+        fringilla
+        porta, magna nisl congue enim, vel gravida lorem arcu a risus. In hac habitasse platea dictumst. Sed quis arcu
+        metus.
+        Donec dignissim ligula non ipsum rhoncus, in ullamcorper nisi suscipit. In sit amet ullamcorper nulla.
+        Curabitur
+        maximus elit vel urna tincidunt ultrices. Integer sed velit vel mauris pulvinar consequat euismod sit amet
+        est. In
+        vel
+        blandit leo, vitae feugiat odio. Pellentesque venenatis felis ut risus venenatis consequat.</p>
+    </div>
+  </div>
+
+
+  <button class="btn btn-danger me-2" (click)="setLevel(1)">
+    Set Level 1
+  </button>
+  <button class="btn btn-primary me-2" (click)="setLevel(2)">
+    Set Level 2
+  </button>
+  <button class="btn btn-success" (click)="setLevel(3)">
+    Set Level 3
+  </button>
+
+</section>
+
